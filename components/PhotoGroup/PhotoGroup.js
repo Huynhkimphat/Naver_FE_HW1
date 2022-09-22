@@ -7,9 +7,9 @@ const styles = {
   phoneContainer:
     "flex items-center justify-center flex-start ml-[-6rem] mt-4 sm:mt-0",
   phone1Container:
-    "object-cover sm:w-299 sm:h-586 mt-[-18rem] mr-[-3rem] w-200",
+    "object-cover mt-[-18rem] mr-[-3rem] w-200 sm:w-299 sm:h-586",
   phone2Container:
-    "object-cover sm:w-299 sm:h-586 mt-[-12rem] ml-[-12rem] w-200",
+    "object-cover mt-[-12rem] ml-[-12rem] w-200 sm:w-299 sm:h-586",
 };
 
 export default function PhotoGroup() {

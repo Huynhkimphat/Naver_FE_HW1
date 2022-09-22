@@ -1,8 +1,14 @@
+import Card from "./Card/Card";
 const styles = {
-  divider:
-    "border-solid border-y border-[#E4E4E4] sm:max-w-[55rem] mx-auto mt-[-4rem]",
+  wrapper: "mx-auto",
+  title: "font-bold text-center text-3xl py-8",
 };
 
-export default function Divider() {
-  return <div className={styles.divider} />;
+export default function Main() {
+  return (
+    <div className={styles.wrapper}>
+      <div className={styles.title}>How the app works</div>
+      <Card />
+    </div>
+  );
 }

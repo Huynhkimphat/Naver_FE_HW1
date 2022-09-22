@@ -1,20 +1,20 @@
 const styles = {
   accentedButton: "bg-black text-white py-2 px-4 rounded-full",
   content:
-    "max-w-7xl flex-1 flex items-center justify-between flex-col sm:mt-[5rem] mt-4",
+    "max-w-7xl flex-1 flex items-center justify-between flex-col mt-4 sm:mt-[5rem]",
   wrapper:
-    "h-max-[10rem] flex items-center justify-center sm:bg-[url('/static/banner.png')] sm:border-y sm:border-black bg-cover bg-no-repeat",
+    "h-max-[10rem] flex items-center justify-center bg-cover bg-no-repeat sm:border-y sm:border-black sm:bg-[url('/static/banner.png')]",
   title:
-    "sm:text-white sm:text-6xl text-4xl text-center p-3 max-w-[52rem] font-bold sm:leading-[5rem] leading-[3rem]",
+    "text-4xl text-center p-3 max-w-[52rem] font-bold leading-[3rem] sm:leading-[5rem] sm:text-white sm:text-6xl",
   subTitle:
-    "p-3 sm:font-bold sm:text-white sm:text-2xl font-semibold text-xl text-[#737373] ",
-  label: "p-3 sm:text-white text-[#737373]",
+    "p-3 font-semibold text-xl text-[#737373] sm:font-bold sm:text-white sm:text-2xl",
+  label: "p-3 text-[#737373] sm:text-white",
   buttonContainer:
-    "flex pt-8 pb-8 mb-[8rem] justify-between items-center sm:w-[28rem] flex-col sm:flex-row gap-y-4 ",
+    "flex pt-8 pb-8 mb-[8rem] justify-between items-center flex-col gap-y-4 sm:gap-y-0 sm:w-[28rem] sm:flex-row",
   accentedButton:
-    "py-2 sm:py-4 px-8 rounded-full bg-[#FA4A0C] text-xl font-semibold  text-center text-white sm:w-[12rem]",
+    "py-2 px-8 rounded-full bg-[#FA4A0C] text-xl font-semibold text-center text-white sm:w-[12rem] sm:py-4",
   button:
-    " py-2 sm:py-4 px-8 rounded-full  text-xl font-semibold border-solid border-2 sm:border-white border-[#FA4A0C] text-center sm:text-white text-[#FA4A0C] sm:w-[12rem]",
+    " py-2 px-8 rounded-full text-xl font-semibold border-solid border-2 border-[#FA4A0C] text-center text-[#FA4A0C] sm:text-white sm:w-[12rem] sm:py-4 sm:border-white",
 };
 
 const Banner = () => {
