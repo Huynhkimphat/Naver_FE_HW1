@@ -12,7 +12,7 @@ const styles = {
   buttonContainer:
     "flex pt-8 pb-8 mb-[8rem] justify-between items-center flex-col gap-y-4 sm:gap-y-0 sm:w-[28rem] sm:flex-row",
   accentedButton:
-    "py-2 px-8 rounded-full bg-[#FA4A0C] text-xl font-semibold text-center text-white sm:w-[12rem] sm:py-4",
+    "py-2 px-8 rounded-full bg-[#FA4A0C] text-xl font-semibold text-center border-2 border-[#FA4A0C] text-white sm:w-[12rem] sm:py-4",
   button:
     " py-2 px-8 rounded-full text-xl font-semibold border-solid border-2 border-[#FA4A0C] text-center text-[#FA4A0C] sm:text-white sm:w-[12rem] sm:py-4 sm:border-white",
 };

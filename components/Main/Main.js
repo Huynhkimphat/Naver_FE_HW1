@@ -2,6 +2,7 @@ import Card from "./Card/Card";
 import Phone3 from "../../static/phone3.png";
 import Phone4 from "../../static/phone4.png";
 import Phone5 from "../../static/phone5.png";
+import DownloadContent from "./DownloadContent/DownloadContent";
 
 const styles = {
   wrapper: "mx-auto",
@@ -36,11 +37,14 @@ export default function Main() {
       isRevert: false,
     },
   ];
-  const listItems = dataSets.map((item) => <Card key={item.id} item={item} />);
+  const listContentItems = dataSets.map((item) => (
+    <Card key={item.id} item={item} />
+  ));
   return (
     <div className={styles.wrapper}>
       <div className={styles.title}>How the app works</div>
-      {listItems}
+      {listContentItems}
+      <DownloadContent />
     </div>
   );
 }

@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "banner-img": "url('/static/banner.png')",
+        "download-img": "url('/static/downloadBg.png')",
       },
     },
   },
