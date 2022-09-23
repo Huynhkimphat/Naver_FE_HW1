@@ -6,7 +6,7 @@ import DownloadContent from "./DownloadContent/DownloadContent";
 
 const styles = {
   wrapper: "mx-auto",
-  title: "font-bold text-center text-3xl py-8",
+  title: "font-bold text-center text-3xl py-8 mb-[4rem]",
 };
 
 export default function Main() {
